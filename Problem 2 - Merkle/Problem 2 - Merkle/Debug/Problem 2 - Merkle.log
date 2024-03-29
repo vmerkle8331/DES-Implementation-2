@@ -1,0 +1,10 @@
+﻿  Problem 2 - Merkle.cpp
+C:\Users\vickm\source\repos\Problem 2 - Merkle\Problem 2 - Merkle\Problem 2 - Merkle.cpp(31,37): error C2065: 'CRYPT_IMPL_PROVIDER': undeclared identifier
+C:\Users\vickm\source\repos\Problem 2 - Merkle\Problem 2 - Merkle\Problem 2 - Merkle.cpp(38,10): error C3861: 'CryptCreateSymmetricKey': identifier not found
+C:\Users\vickm\source\repos\Problem 2 - Merkle\Problem 2 - Merkle\Problem 2 - Merkle.cpp(44,36): error C2065: 'CRYPT_KEYSIZE': undeclared identifier
+C:\Users\vickm\source\repos\Problem 2 - Merkle\Problem 2 - Merkle\Problem 2 - Merkle.cpp(53,8): error C2660: 'CryptGetUserKey': function does not take 2 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincrypt.h(1232,1): message : see declaration of 'CryptGetUserKey'
+C:\Users\vickm\source\repos\Problem 2 - Merkle\Problem 2 - Merkle\Problem 2 - Merkle.cpp(60,43): error C2065: 'CRYPT_MODE': undeclared identifier
+C:\Users\vickm\source\repos\Problem 2 - Merkle\Problem 2 - Merkle\Problem 2 - Merkle.cpp(72,12): error C2664: 'BOOL CryptEncrypt(HCRYPTKEY,HCRYPTHASH,BOOL,DWORD,BYTE *,DWORD *,DWORD)': cannot convert argument 2 from 'BYTE *' to 'HCRYPTHASH'
+C:\Users\vickm\source\repos\Problem 2 - Merkle\Problem 2 - Merkle\Problem 2 - Merkle.cpp(72,64): message : There is no context in which this conversion is possible
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincrypt.h(1265,1): message : see declaration of 'CryptEncrypt'
